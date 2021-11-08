@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------- button on top ---------*/
+.loginOut {  
+    position: absolute;
+    right: 280px;
+}
+
+.btntheatre { 
+    position: absolute;
+    left: 280px;
+}
+
+.btnontop {
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    color: white;
+    font-family: 'Varela Round';
+    background: #f50057;
+    border: none;
+    border-radius: 60px;
+    
+    opacity:1.0; 
+    filter:alpha(opacity=100);
+}
+.btnontop::before,
+.btnontop::after {
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all .5s;
+}
+
+.btnontop:hover {
+    background-color: #d0cde1;
+    color: #000;
+}
+/*--------- logo web ---------*/
+.logo {
+    text-align: center; 
+}
+
+/*--------- header ---------*/
+h2 {
+    font-family: 'Varela Round'; 
+    text-align: center;
+}
+
+.header2 {
+    width: 90%;
+    margin: 50px auto 0px;
+    color: white;
+    font-size: 30px;
+    background: #ffbf37;
+    text-align: center;
+    border: 1px solid #ffbf37;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+
+/*--------- form ---------*/
+.input-group  {
+    margin: 3px;
+    text-align: center;
+    font-family: 'Varela Round'; 
+    font-size: 20px;
+}
+
+.input-group label {
+    margin: 3px;
+    text-align: center;
+    color:#f50057;
+    font-family: 'Varela Round'; 
+    font-size: 20px;
+}
+
+.input-group2 label {
+    margin: 3px;
+    text-align: center;
+    color:#02111d;
+    font-family: 'Varela Round'; 
+    font-size: 20px;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 150px;
+}
+
+.fetch-group {
+    margin: 10px 0px 10px 0px;
+    color: #02111d;
+    text-align: center;
+    font-size: 70%;
+}
+
+/*--------- scroll bar ---------*/
+::-webkit-scrollbar {
+width: 15px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #d0cde1; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #d0cde1; 
+}
+
+/*column*/
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+
