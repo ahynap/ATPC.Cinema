@@ -4,7 +4,7 @@ An online movie ticket bookings website using HTML, CSS, PHP and SQL to develop.
 ## What I have learned from this project?
 1. ***Hard skills***
    - database design.
-   - web development.
+   - web development using HTML, CSS, PHP and SQL.
 2. ***Management skills***
    - planning the project direction and schedule.
 3. ***Self-learning skills***
